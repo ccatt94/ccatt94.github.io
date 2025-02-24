@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/bootstrap1.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./부트스트랩 연습_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>부트스트랩 연습</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row m-5">
+        <div class="col">
+          <div class="card shadow" style="width: 22rem">
+            <img src="./부트스트랩 연습_files/portfolio-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body p-4">
+              <span class="badge rounded-pill bg-primary mb-2">News</span>
+              <h5 class="card-title fw-light mb-3">Blog post title</h5>
+              <p class="card-text mb-5">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+
+              <div class="d-flex text-muted pt-3">
+                <div class="rounded-circle me-3" style="width: 40px; height: 40px; background-color: #eeeeeef1"></div>
+                <div>
+                  <h6 class="text-dark fw-bold m-0">Kelly Rowan</h6>
+                  <p class="text-secondary text-opacity-25">
+                    <small>March 12, 2021 • 6 min read</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card" style="width: 13rem">
+            <img src="./부트스트랩 연습_files/portfolio-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-light">Card Title</h5>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 13rem">
+            <img src="./부트스트랩 연습_files/portfolio-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-light">Card Title</h5>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 13rem">
+            <img src="./부트스트랩 연습_files/portfolio-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-light">Card Title</h5>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card" style="width: 13rem">
+            <img src="./부트스트랩 연습_files/portfolio-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-light">Card Title</h5>
+              <p>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./부트스트랩 연습_files/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

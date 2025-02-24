@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <title>vertical-align속성</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="shopping-cart">
+        <div class="shopping-title">
+          <h3>Your shopping cart</h3>
+        </div>
+        <div class="shopping-list">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>ITEM</th>
+                <th>AMOUNT</th>
+                <th>PRICE</th>
+                <th>TOTAL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="img/cat2.jpg" alt="" /></td>
+                <td class="item">
+                  <h5>SONY</h5>
+                  <p>FE 70-200 mm F2.8 GM OSS</p>
+                </td>
+                <td class="amount">1</td>
+                <td class="price">€ 1979.00</td>
+                <td class="total">€ 1979.00</td>
+              </tr>
+              <tr>
+                <td><img src="img/cat2.jpg" alt="" /></td>
+                <td class="item">
+                  <h5>SONY</h5>
+                  <p>Sonnar T <sup>*</sup> E 24mm F1.8 ZA</p>
+                </td>
+                <td class="amount">1</td>
+                <td class="price">€ 989.00</td>
+                <td class="total">€ 989.00</td>
+              </tr>
+              <tr>
+                <td class="total" colspan="5">€ 2968.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="bottom">
+          <p class="edit"><a href="#">Edit your shopping cart</a></p>
+          <button class="blue-btn">Choose payment method</button>
+        </div>
+        <div style="clear: both"></div>
+        <button class="btn bg-red">빨강</button>
+        <button class="btn bg-blue">파랑</button>
+      </div>
+    </div>
+  </body>
+</html>

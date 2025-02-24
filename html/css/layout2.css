@@ -1,0 +1,124 @@
+.navbar {
+  margin: 0 auto;
+  text-align: center;
+
+  a:link {
+    color: blue;
+  }
+
+  a:visited {
+    color: black;
+  }
+}
+
+.navbar > li {
+  display: inline-block;
+  background-color: aqua;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  justify-content: center;
+
+  .container {
+    width: 65%;
+    float: left;
+
+    .user {
+      display: flex;
+      align-items: center;
+
+      .user-thumb-nail {
+        width: 50px;
+        height: 50px;
+        background-color: gray;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .user-desc {
+        margin-left: 10px;
+
+        .user-id {
+          margin: 0;
+          font-size: 18px;
+        }
+        .create-time {
+          margin: 3px 0px 0px 0px;
+          color: rgb(202, 202, 202);
+        }
+      }
+    }
+
+    .thumb-nail-desc p {
+      color: rgb(164, 164, 164);
+    }
+
+    .share {
+      font-size: 25px;
+      text-align: right;
+    }
+  }
+
+  .img-container {
+    float: right;
+    display: flex;
+    align-items: center;
+    width: 30%;
+
+    .thumb-nail-img {
+      background-image: url("../my_cat.jpeg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .img-more-container {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        overflow: hidden;
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+
+        .img-more {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50px;
+          height: 50px;
+          background-color: #000;
+          opacity: 50%;
+        }
+        .img-more p {
+          margin: 0;
+          text-align: center;
+          color: #fff;
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
